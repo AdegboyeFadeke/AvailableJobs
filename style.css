@@ -1,0 +1,220 @@
+                            body {
+                                font: 15px/1.5 Arial, Helvetica, sans-serif;
+                                padding: 0;
+                                margin: 0;
+                            }
+                            /* everything that is general*/
+                            
+                            .container {
+                                width: 80%;
+                                margin: auto;
+                                overflow: hidden;
+                            }
+                            
+                            ul {
+                                margin: 0;
+                                padding: 0;
+                            }
+                            
+                            .button-1 {
+                                height: 42px;
+                                background: #e8451d;
+                                border: 0;
+                                padding-left: 20px;
+                                padding-right: 20px;
+                                color: #ffffff;
+                            }
+                            
+                            .dark {
+                                padding: 20px;
+                                background-color: #35424a;
+                            }
+                            /*header*/
+                            
+                            header {
+                                background: rgba(0, 0, 0, .2);
+                                top: 0;
+                                left: 0;
+                                color: #fff;
+                            }
+                            
+                            header a {
+                                color: #fff;
+                                text-decoration: none;
+                                text-transform: uppercase;
+                                font-size: 16px;
+                            }
+                            
+                            header li {
+                                float: left;
+                                display: inline;
+                                padding: 0 20px 0 20px;
+                            }
+                            
+                            header #branding {
+                                float: left;
+                            }
+                            
+                            header #branding h1 {
+                                margin: 0;
+                                font-size: small;
+                                font-family: monospace;
+                            }
+                            
+                            header #branding .highlight {
+                                font-size: xx-large;
+                            }
+                            
+                            header #branding .question {
+                                color: blue;
+                            }
+                            
+                            header nav {
+                                float: right;
+                                margin-top: 10px;
+                            }
+                            
+                            header .highlight,
+                            header .current a {
+                                color: #e8491d;
+                                font-weight: bold;
+                            }
+                            
+                            header a:hover {
+                                color: #cccccc;
+                                font-weight: bold;
+                            }
+                            /* container for about us and find a job */
+                            
+                            .container {
+                                padding: 20px;
+                            }
+                            /* search bar */
+                            
+                            .input-group {
+                                margin: 50px;
+                            }
+                            /* register */
+                            
+                            .register {
+                                background-color: #35424a;
+                                border: 10px solid #35424a;
+                                text-decoration: none;
+                                text-align: center;
+                                margin: 20px;
+                                color: black;
+                            }
+                            /* showcase */
+                            
+                            #showcase {
+                                height: 100vh;
+                                width: 100%;
+                                background-image: url('../pixs.jpg');
+                                background-repeat: no-repeat;
+                                background-position: center;
+                                background-size: cover;
+                                text-align: center;
+                                color: #ffffff;
+                            }
+                            
+                            #showcase h1 {
+                                margin-top: 100px;
+                                font-size: 55px;
+                                margin-bottom: 10px;
+                            }
+                            
+                            #showcase p {
+                                font-size: 20px;
+                            }
+                            
+                            #newsletter {
+                                /* padding: 10px; */
+                                color: #ffffff;
+                                background: #35424a;
+                            }
+                            
+                            #newsletter h1 {
+                                float: left;
+                            }
+                            
+                            #newsletter form {
+                                float: right;
+                                margin-top: 5px;
+                            }
+                            
+                            #newsletter input [type="email"] {
+                                padding: 4px;
+                                height: 25px;
+                                width: 250px;
+                            }
+                            /*boxes*/
+                            
+                            #boxes {
+                                margin-top: 20px;
+                            }
+                            
+                            #boxes .box {
+                                float: left;
+                                width: 30%;
+                                padding: 10px;
+                                text-align: center;
+                            }
+                            
+                            #boxes .box img {
+                                width: 90px;
+                            }
+                            /*about us*/
+                            /* MAIN */
+                            
+                            #main {
+                                /* display: flex; */
+                                justify-content: space-evenly;
+                                padding: 20px;
+                            }
+                            
+                            .pageTitle {
+                                text-align: center;
+                                text-decoration: underline;
+                            }
+                            
+                            #main>article,
+                            #main>aside {
+                                padding: 20px;
+                            }
+                            
+                            #main>article {
+                                flex-basis: 70%;
+                            }
+                            /*sidebar*/
+                            
+                            aside#sidebar {
+                                margin-top: 10px;
+                                flex-basis: 30%;
+                            }
+                            
+                            aside#sidebar .Quote input,
+                            aside#sidebar .Quote input textarea {
+                                width: 90%;
+                                padding: 5px;
+                            }
+                            /*services*/
+                            
+                            ul#services li {
+                                list-style: none;
+                                padding: 20px;
+                                border: #cccccc solid 1px;
+                                margin-bottom: 5px;
+                                background: #e6e6e6;
+                            }
+                            /* forms */
+                            
+                            .myForms {
+                                margin: 20px;
+                            }
+                            /*footer*/
+                            
+                            footer {
+                                color: #000000;
+                                background-color: beige;
+                                text-align: center;
+                            }
