@@ -175,6 +175,7 @@
                             .pageTitle {
                                 text-align: center;
                                 text-decoration: underline;
+                                font-family: monospace;
                             }
                             
                             #main>article,
