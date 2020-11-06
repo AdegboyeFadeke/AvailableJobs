@@ -91,8 +91,8 @@
                             }
                             /* search bar */
                             
-                            .input-group {
-                                margin: auto;
+                            .input {
+                                margin: 40px;
                             }
                             /* register */
                             
@@ -103,6 +103,7 @@
                                 text-align: center;
                                 margin: 20px;
                                 color: black;
+                                border-radius: 20px;
                             }
                             /* showcase */
                             
@@ -172,6 +173,20 @@
                                 padding: 20px;
                             }
                             
+                            #main h3:hover {
+                                font-weight: bold;
+                                text-decoration: underline;
+                            }
+                            
+                            #main a:hover {
+                                font-weight: bold;
+                                color: #e8451d;
+                            }
+                            
+                            #main a {
+                                color: black;
+                            }
+                            
                             .pageTitle {
                                 text-align: center;
                                 text-decoration: underline;
@@ -204,8 +219,8 @@
                                 list-style: none;
                                 padding: 20px;
                                 border: #cccccc solid 1px;
-                                margin-bottom: 5px;
-                                background: #e6e6e6;
+                                margin-bottom: 10px;
+                                background: #cccccc;
                             }
                             /* forms */
                             
@@ -218,4 +233,13 @@
                                 color: #000000;
                                 background-color: beige;
                                 text-align: center;
+                            }
+                            
+                            footer a:hover {
+                                font-weight: bold;
+                                color: #e8451d;
+                            }
+                            
+                            footer a {
+                                color: black;
                             }
